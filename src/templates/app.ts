@@ -5,7 +5,7 @@ require('dotenv').config();
 
 //LOCAL MODULES
 const { apiDocsPage } = require('./routes/api.route');
-const errorRoute = require('./routes/errors.route');
+const errorRoute = require('../../routes/errors.route');
 
 //INITIALIZATION
 const app = express();
